@@ -21,7 +21,7 @@ function Main() {
   return (
     <div className="w-full h-[600px] text-white">
       <div className="w-full h-full">
-        <div className="absolute w-full h-[600px] bg-gradient-to-r from-black"></div>
+        <div className="absolute w-full h-[600px] bg-gradient-to-r from-black z-0"></div>
         <img
           className="w-full h-full object-cover"
           src={`https://image.tmdb.org/t/p/original/${movie?.backdrop_path}`}
